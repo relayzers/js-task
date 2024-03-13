@@ -1,0 +1,55 @@
+* {
+  margin: 0 auto;
+  text-decoration: none;
+  outline: none;
+}
+
+.divop {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  border: 1px solid gray;
+  margin-top: 10px;
+  margin-left: 500px;
+  background-color: gray;
+  text-align: end;
+  width: 200px;
+  padding: 40px 119px;
+  color: white;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+  max-width: 100%;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: gray;
+}
+
+button {
+  border: 1px solid orange;
+  padding: 30px;
+  border-radius: 40%;
+  cursor: pointer;
+  background-color: orange;
+  transition: 0.5s;
+}
+button:hover {
+  background-color: white;
+}
+
+.number0 {
+  padding: 0px 125px;
+  border-radius: 25px;
+}
+
+#hesablabtn {
+  padding: 25px 50px;
+  border-radius: 25px;
+}/*# sourceMappingURL=style.css.map */
